@@ -28,6 +28,6 @@ numpy, pandas, matplotlib, sklearn, ntlk, TfidfVectorizer, GridSearchCV, Logisti
 * подобрали способ балансирования весов классов
 * обучили 3 модели (LogisticRegression, DecisionTreeClassifier, CatBoostClassifier)
 * выбрали модель LogisticRegression, как показавшую наилучшую метрику F1 на валидационной выборке
-* вывели характеристики выбранной модели: F1 = 0,768, ROC AUC = 0,956, Accuracy = 0,956
+* вывели характеристики выбранной модели: F1 = 0,765, ROC AUC = 0,961, Accuracy = 0,954
 
 Для интернет-магазина "Викишоп" рекомендуется использовать модель LogisticRegression с предварительной балансировкой классов.
